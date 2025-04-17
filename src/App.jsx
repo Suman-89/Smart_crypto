@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import './App.css'
-import Index from './pages/auth'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Cart from './pages/auth/cart';
+import Index from './pages/cms';
+import Cart from './pages/cms/cart';
 
 
 function App() {
